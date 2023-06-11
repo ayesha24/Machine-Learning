@@ -1,0 +1,10 @@
+We will train various neural networks to perform image classification in this problem set. 
+
+Problem Statement 1
+Demonstrate that a neural network to maximize the log-likelihood of the label has softmax output nodes and minimizes the criterion function of the negative log probability of the training data set. Train a LeNet-5 to classify CIFAR-10 images with and without image augmentation — plot training/validation loss/accuracy, provide the confusion matrix, and draw some correctly and incorrectly classified images. 
+Problem Statement 2
+We will build an EfficientNet from scratch and train this network to classify CIFAR-100 images.
+
+
+Problem Statement 3
+We will build a vision transformer from scratch and train this network to classify CIFAR-10 and CIFAR-100 images.

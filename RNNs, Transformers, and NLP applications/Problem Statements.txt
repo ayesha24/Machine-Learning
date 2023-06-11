@@ -1,0 +1,19 @@
+﻿We will train various neural networks to perform several natural language processing tasks in this problem set. 
+Task 1, Sentiment Analysis
+IMDB movie review sentiment classification data set contains 25,000 reviews of popular movies in the training split and another 25,000 in the testing split. Each review is labeled as either positive or negative. The task is to predict the label from a review. Construct a text classification workflow from scratch, involving tokenization, building a CNN-LSTM model, specifying the loss function, feeding train/validation data to "Model.fit", plotting confusion matrix, and listing several correctly and incorrectly classified reviews. A simple CNN-LSTM model can achieve the best validation accuracy at around 85% within a few steps. Can you improve the accuracy to 90+% through using pre-trained word embedding, fine-tuning, etc.? Useful links:  Useful links: 
+* https://keras.io/examples/nlp/text_classification_from_scratch/
+* https://paperswithcode.com/sota/sentiment-analysis-on-imdb
+* https://code.google.com/archive/p/word2vec/
+Task 2, seq2seq model
+Seq2seq is a family of machine-learning approaches used for natural language processing. Applications include language translation, image captioning, conversational models, and text summarization. "ted_multi_translate" is a multilingual (60 language) data set derived from TED Talk transcripts. Construct a seq2seq model, train it with "tec_multi_translate" training data split, and report your model performance with the test data split. You can use various techniques, such as LSTM, transformers, attention, and pretraining/fine-tuning. This task is open-ended. Useful links:
+* https://www.tensorflow.org/text/tutorials/nmt_with_attention
+* https://www.tensorflow.org/datasets/catalog/ted_multi_translate
+ 
+
+
+Problem Statement 1
+IMDB movie review sentiment classification data set contains 25,000 reviews of popular movies in the training split and another 25,000 in the testing split. Each review is labeled as either positive or negative. The task here is to predict the label from a review. We will construct a text classification workflow from scratch, involving tokenization, building a CNN-LSTM model, specifying the loss function, feeding train/validation data to "Model.fit", plotting confusion matrix, and listing several correctly and incorrectly classified reviews. 
+
+
+Problem Statement 2
+Seq2seq is a family of machine-learning approaches used for natural language processing. Applications include language translation, image captioning, conversational models, and text summarization. "ted_multi_translate" is a multilingual (60 language) data set derived from TED Talk transcripts. We will construct a seq2seq model, train it with "tec_multi_translate" training data split, and show model performance with the test data split.
