@@ -1,0 +1,22 @@
+﻿CSE 474 (optional) / 574 Problem Set 2 (Due 3/10, end of the day)
+Here we will be implementing automatic differentiation through training a multi-class support vector machine using the MNIST data set. 
+Task 1
+Review the theory of 2-class support vector classifier with L2-norm soft margin and Gaussian radial basis function kernel. Build a tensorflow input pipeline using `tf.data` to provide checkerboard pattern examples in mini-batches to `tf.GradientTape`. Define the loss function properly with tensorflow. Plot the cures of training/validation loss/accuracy vs. epochs of different tensorflow optimizers and mini-batch sizes. To make the performance comparable, assume that each epoch consists of training with 1000 examples and "normalize" the gradient by mini-batch size. There are various ways to cope with constrained optimization: one way is to set a barrier https://en.wikipedia.org/wiki/Barrier_function, and another is to clip the parameters.
+Task 2
+Review one-against-one and one-against-all approaches to build a multi-class support vector classifier. A multi-class support vector classifier consists of multiple two-class support vector classifiers. Build a tensorflow input pipeline, define loss function properly, and train support vector classifiers to predict MNIST image labels. Show the confusion matrix, and plot some correctly and incorrectly classified examples.
+
+
+
+
+
+
+Problem Statement 1
+We will build a tensorflow input pipeline using `tf.data` to provide checkerboard pattern examples in mini-batches to `tf.GradientTape`. To make the performance comparable, we will assume that each epoch consists of training with 1000 examples and "normalize" the gradient by mini-batch size. There are various ways to cope with constrained optimization: one way is to set a barrier and another is to clip the parameters.
+
+
+
+
+Problem Statement 2
+We will review one-against-one and one-against-all approaches to build a multi-class support vector classifier. A multi-class support vector classifier consists of multiple two-class support vector classifiers. Build a tensorflow input pipeline, define loss function properly, and train support vector classifiers to predict MNIST image labels. 
+Problem Statement 3
+We will train a multi-class logistic regression model.
