@@ -8,3 +8,5 @@ We will build an EfficientNet from scratch and train this network to classify CI
 
 Problem Statement 3
 We will build a vision transformer from scratch and train this network to classify CIFAR-10 and CIFAR-100 images.
+
+Additional test line.
